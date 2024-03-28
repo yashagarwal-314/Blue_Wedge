@@ -1,0 +1,156 @@
+{
+    "metadata": {
+        "build_time": "2023 Feb 09 16:21",
+        "commit": "116330",
+        "version": "R7/RC37"
+    },
+    "motor": [
+        {
+            "desc": "motor ID",
+            "key": "id",
+            "value": "delongi_motor"
+        },
+        {
+            "desc": "number of poles",
+            "key": "poleCount",
+            "value": 6
+        },
+        {
+            "desc": "number of pole pairs",
+            "key": "polePairs",
+            "value": 3.0
+        },
+        {
+            "desc": "stator resistance",
+            "key": "R",
+            "units": "ohms line-neutral",
+            "value": 2.5
+        },
+        {
+            "desc": "stator resistance",
+            "key": "Rll",
+            "units": "ohms line-line",
+            "value": 5.0
+        },
+        {
+            "desc": "stator inductance",
+            "key": "L",
+            "units": "H line-neutral",
+            "value": 3.43168186399e-05
+        },
+        {
+            "desc": "stator inductance",
+            "key": "Lll",
+            "units": "H line-line",
+            "value": 6.86336372798e-05
+        },
+        {
+            "desc": "d-axis stator inductance",
+            "key": "Ld",
+            "units": "H line-neutral",
+            "value": 3.20636372798e-05
+        },
+        {
+            "desc": "d-axis stator inductance",
+            "key": "Ldll",
+            "units": "H line-line",
+            "value": 6.41272745596e-05
+        },
+        {
+            "desc": "q-axis stator inductance",
+            "key": "Lq",
+            "units": "H line-neutral",
+            "value": 3.657e-05
+        },
+        {
+            "desc": "q-axis stator inductance",
+            "key": "Lqll",
+            "units": "H line-line",
+            "value": 7.314e-05
+        },
+        {
+            "desc": "back-EMF constant",
+            "key": "Ke",
+            "units": "V/(rad/s) line-neutral 0-pk",
+            "value": 0.0233369794554
+        },
+        {
+            "desc": "back-EMF constant",
+            "key": "Kell",
+            "units": "V/(rad/s) line-line 0-pk",
+            "value": 0.0404208341119
+        },
+        {
+            "desc": "back-EMF constant",
+            "key": "Ke_datasheet",
+            "units": "Vrms/KRPM line-line",
+            "value": 2.9930839037
+        },
+        {
+            "desc": "viscous damping",
+            "key": "B",
+            "units": "Nm/(rad/s)",
+            "value": 0.000150562510935
+        },
+        {
+            "desc": "Coulomb friction",
+            "key": "Tf",
+            "units": "Nm",
+            "value": 0.00171739474331
+        },
+        {
+            "desc": "inertia",
+            "key": "J",
+            "units": "Nm/(rad/s^2)",
+            "value": 2.18811877794e-07
+        },
+        {
+            "desc": "maximum velocity",
+            "key": "omega_m_max",
+            "units": "rad/s",
+            "value": 418.879020479
+        },
+        {
+            "desc": "nominal (base) velocity",
+            "key": "omega_m1",
+            "units": "rad/s",
+            "value": 366.519142919
+        },
+        {
+            "desc": "nominal electrical frequency",
+            "key": "omega_e1",
+            "units": "rad/s",
+            "value": 1099.55742876
+        },
+        {
+            "desc": "rated current",
+            "key": "I1",
+            "units": "A",
+            "value": 2.5
+        },
+        {
+            "desc": "nominal voltage",
+            "key": "V1",
+            "units": "V line-neutral",
+            "value": 8.5534497083
+        },
+        {
+            "desc": "nominal voltage",
+            "key": "V1ll",
+            "units": "V line-line",
+            "value": 14.8150094748
+        },
+        {
+            "desc": "rated torque",
+            "key": "T1",
+            "units": "Nm",
+            "value": 0.0875136729576
+        },
+        {
+            "desc": "rated power",
+            "key": "P1",
+            "units": "W",
+            "value": 32.0754364061
+        }
+    ]
+}

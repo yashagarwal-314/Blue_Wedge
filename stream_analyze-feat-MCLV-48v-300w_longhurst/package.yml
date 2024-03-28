@@ -1,0 +1,13 @@
+package:
+  format-version: "1.0.0"
+  name: "sa_engine"
+  type: "api"
+  status: "beta"
+  required: false
+  version: "1.0.0"
+
+  dependencies:
+    - name: "csp"
+      type: "package"
+      version: "3.17.0"
+
